@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  color: #5f2104;
+}
+
+section.container {
+  margin-top: 60px;
+  max-width: 900px;
+  margin-inline: auto;
+  background-color: #fbf7e4;
+  border-radius: 50px;
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 80%;
+  height: 70%;
+  margin: 0 20px;
+}
